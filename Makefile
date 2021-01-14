@@ -8,7 +8,7 @@ doc: Doxyfile ./src/main.cpp ./include/example.hpp
 main: ./src/main.cpp ./include/example.hpp
 	g++ -g -Wall -I ./include/ ./src/main.cpp -o ./bin/main
 
-test: ./src/main.cpp
+test: ./src/main.cpp 
 	./bin/main test
 	
 clean:
